@@ -15,6 +15,8 @@ I didn't find more than 1 clear cluster, however, there is evidence of 3 outlier
 
 Places of improvement:
 
-I didn't account for the different lengths of anthems, which could throw this analysis off somewhat.
+I tried stemming but it yielded no improvement.
 
 Weighting the features before the t-SNE should improve analysis about clustering. Tried tf-idf but the remaining features became way too specific to the anthems (e.g. the name of the nations)
+
+I didn't account for the different lengths of anthems, which could throw this analysis off somewhat.
