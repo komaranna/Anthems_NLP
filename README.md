@@ -13,6 +13,8 @@ I didn't find more than 1 clear cluster, however, there is evidence of 3 outlier
 
 3. Pledge of Allegiance (not an anthem, nevertheless was included in dataset): http://lyricstranslate.com/en/national-anthems-patriotic-songs-american-pledge-allegiance-lyrics.html
 
-Caveat(s):
+Places of improvement:
 
 I didn't account for the different lengths of anthems, which could throw this analysis off somewhat.
+
+Weighting the features before the t-SNE should improve analysis about clustering. Tried tf-idf but the remaining features became way too specific to the anthems (e.g. the name of the nations)
